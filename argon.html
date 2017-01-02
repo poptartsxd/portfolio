@@ -1,0 +1,271 @@
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.css" media="screen, projection"/>
+	<link rel="stylesheet" href="css/style.css" media="screen, projection"/>
+</head>
+
+<body>
+
+	<!--Navbar-->
+	<header>
+		<div class="navbar-fixed">
+			<nav class="myOwnNav">
+				<div class="container">
+					<div class="nav-wrapper">
+						<a href="index.html" class="brand-logo blue-grey-text text-darken-2">VICTORIA CHAI</a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons blue-grey-text text-darken-2">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a class="myNav" href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a class="myNav" href="media/resume.pdf">RESUME</a></li>
+							<li><a class="myNav" href="index.html#about">ABOUT</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a href="media/resume.pdf">RESUME</a></li>
+							<li><a href="index.html#about">ABOUT</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 center-align">
+					<h1>
+						AR Storybook
+					</h1>
+					<p class="subtitle">
+						UX Design, AR Development, Interactive Storytelling   |   Aug ’16 - Dec ’16   |   Partner Project
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/argon/argon.jpg"/>
+				</div>
+
+				<div class="col s12 m6">
+
+					<div class="desc">
+						The AR Storybook is an <b>interactive narrative</b> that tells the history of Augmented Reality in an AR application and is built upon the <a href="http://argonjs.io" class="white-text"><b>ArgonJS</b></a> framework.
+					</div>
+
+					<br>
+
+					<div class="role">
+						<b>Role:</b> UX Designer &amp; Developer<br>
+
+						<b>Methods:</b> User flows, Wireframe, Development, 3D Modeling<br>
+
+						<b>Tools:</b> Sketch, Vuforia, Twine, ArgonJS, Github, Blender
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m12">
+					<h4>OBJECTIVE</h4>
+
+					<p>
+						<b>Our goal was to tell the history of Augmented Reality in an AR medium.</b> Argon is a Javascript framework designed to help develop applications that want to utilize AR technology. We built the storybook within the Argon browser by using the framework as well as various other AR tools, such as <a href="https://www.vuforia.com/"><b>Vuforia</b></a> and <a href="https://twinery.org/"><b>Twine</b></a>. The 3D models were created with <a href="https://www.blender.org/"><b>Blender</b></a>.
+
+						<br><br>I focused on integrating Vuforia with Argon, constructing the images to trigger the AR components, and designing the flow of the interaction.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 center-align">
+					<ul id="processNav">
+						<div class="col s4">
+							<li><a class="myNav" href="#ardesign">DESIGN</a></li>
+						</div>
+						<div class="col s4">
+							<li><a class="myNav" href="#ardevelopment">DEVELOPMENT</a></li>
+						</div>
+						<div class="col s4">
+							<li><a class="myNav" href="#finalproduct">FINAL PRODUCT</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+
+			<div class="divider"></div>
+
+			<div id="ardesign" class="row section scrollspy">
+
+				<div class="col s12 m12">
+
+					<h4>DESIGN</h4>
+
+					<h6>Narrative Concept</h6>
+					<p>The history of AR goes back more than a century. Our narrative originally started out as a <b>linear progression</b> as it represented a timeline. We pinpointed 10 major events as a basis for our storybook and each would have its respective story: </p>
+					<ul class="browser-default">
+						<li>The Sword of Damocles</li>
+						<li>Videoplace</li>
+						<li>Eyetap</li>
+						<li>Virtual Fixtures</li>
+						<li>ARToolkit</li>
+						<li>ARQuake</li>
+						<li>Google Glass Beta Test</li>
+						<li>Hololens</li>
+						<li>PokemonGO</li>
+						<li>ArgonJS Framework</li>
+					</ul>
+
+
+					<div class="row">
+						<div class="col s12 m6">
+
+							<h6>Flow</h6>
+							<p>At this point, we were thinking about how our users would use our application. We thought that, maybe the timeline may not be the most ideal as users may want to flip to different stories. Ultimately, we decided to make our application <b>non-linear and interactive</b>.</p>
+
+							<p>As we were looking at different flows, one of the biggest challenges was how to display the story. We thought about using a scroll textbox, but because the user would have to keep holding the phone at the trigger image to show the text, scrolling may be difficult. We decided to have the user tap through different parts of the story.</p>
+
+							<p>Another big decision was how the triggers would dictate the storyline. For example, if the app had Story 1 on the screen but the user switched the camera view to trigger #2, the device should now display Story 2.</p>
+
+							<h6>Wireframing</h6>
+
+							<p>As the entire application would be utilizing a camera view with overlayed text and images, we wanted it to focus on the AR component. As a result, all the screens have the same format, with the AR component appearing at the top and the text at the bottom.</p>
+
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/argon/flow.jpg"/>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="divider"></div>
+
+			<div id="ardevelopment" class="row section scrollspy">
+
+				<div class="col s12 m12">
+
+					<h4>DEVELOPMENT</h4>
+
+					<div class="row">
+						<div class="col s12 m6">
+							<h6>Image Recognition</h6>
+
+							<p>Image recognition was done through the Vuforia database. The biggest challenge was creating images that had a "high target rating". The higher the target rating, the more stable the AR application as it could recognize the images better.</p>
+
+							<p>After 3 iterations, we were able to bump up all our images to at least 2/3 star ratings. At first, a lot of them were at 0 stars so some images could not be recognized at all. I learned that by adding asymmetrical components to the drawings, the target rating would increase.</p>
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/argon/vuforiaratings.jpg"/>
+						</div>
+					</div>
+					<h6>3D Modeling</h6>
+
+					<p>We made all 10 models in Blender. We were worried that the more complex the 3D model, the more processing power it would take to load the images. Instead, we created simple 3D models, some with texture and some with just one color.</p>
+
+					<div class="row">
+						<div class="col s12 m4 center-align">
+							<img class="responsive-img" src="media/argon/model1.jpg"/><br><br>
+							<img class="responsive-img" src="media/argon/model2.jpg"/>
+						</div>
+						<div class="col s12 m8 center-align">
+							<img class="responsive-img" src="media/argon/model3.jpg"/><br><br>
+							<img class="responsive-img" src="media/argon/model4.jpg"/>
+						</div>
+					</div>
+
+					<h6>Interactive Narrative with Twine</h6>
+
+					<p>Originally, we programmed the Vuforia and Argon capability by itself just to make sure that the AR components were triggering correctly. After ensuring all images were rendering correctly, we then decided to use Twine to make it more interactive.</p>
+					<div class="row">
+						<div class="col s12 m12 center-align">
+							<img class="responsive-img" src="media/argon/twine.png"/>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="divider"></div>
+
+			<div id="finalproduct" class="row section scrollspy">
+
+				<div class="col s12 m12">
+
+					<h4>FINAL PRODUCT</h4>
+
+					<h6>Storybook</h6>
+					<p>All of these pieces worked cohesively to tell the story of AR in our storybook. Users would simply have to open the Argon app and go to our link. Then they could use the images (or just pull it up on their computer) to trigger the stories.</p>
+
+					<div class="row">
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/1.png"/>
+						</div>
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/2.png"/>
+						</div>		
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/3.png"/>
+						</div>	
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/4.png"/>
+						</div>
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/5.png"/>
+						</div>
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/6.png"/>
+						</div>
+
+					</div>
+					<div class="row">
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/7.png"/>
+						</div>
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/8.png"/>
+						</div>		
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/9.png"/>
+						</div>	
+						<div class="col s12 m2 center-align">
+							<img class="responsive-img" src="media/argon/10.png"/>
+						</div>
+
+					</div>
+					<h6>Reflection</h6>
+
+					<ul class="browser-default">
+						<li><i><b>Augmented Reality development is not as daunting as it seems.</b></i> I took on this project because I wanted to learn how to implement an AR application, even though I did feel it was a little over my head. There was a lot to learn at first but once I understood the flow of information and how each piece worked with one another, it became easier to develop.</li>
+						<li><i><b>It's important to draw out story flows before jumping straight into implementation.</b></i> Especially with an interactive story, we had to figure out user flows from different scenarios. It was very tempting to jump straight into coding. However, once we had drawn out the flows, programming the application made a lot more sense.</li>
+					</ul>
+
+
+				</div>
+
+			</div>
+
+		</div>
+	</main>
+
+	<footer class="page-footer blue-grey darken-2">
+		<div class="container white-text">
+			Designed by Victoria Chai. Made with <a class="white-text" href="http://materializecss.com/"><b>Materialize</b></a>.
+		</div>
+	</footer>
+
+	<!--some javascript-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

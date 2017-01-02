@@ -1,0 +1,471 @@
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.css" media="screen, projection"/>
+	<link rel="stylesheet" href="css/style.css" media="screen, projection"/>
+</head>
+
+<body>
+
+	<!--Navbar-->
+	<header>
+		<div class="navbar-fixed">
+			<nav class="myOwnNav">
+				<div class="container">
+					<div class="nav-wrapper">
+						<a href="index.html" class="brand-logo blue-grey-text text-darken-2">VICTORIA CHAI</a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons blue-grey-text text-darken-2">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a class="myNav" href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a class="myNav" href="media/resume.pdf">RESUME</a></li>
+							<li><a class="myNav" href="index.html#about">ABOUT</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a href="media/resume.pdf">RESUME</a></li>
+							<li><a href="index.html#about">ABOUT</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 center-align">
+					<h1>
+						Lock-It
+					</h1>
+					<p class="subtitle">
+						UX/UI Design, Research, Prototyping   |   Aug ’16 - Dec ’16   |   Team Project
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/lockit.jpg"/>
+				</div>
+
+				<div class="col s12 m6">
+
+					<div class="desc">
+						Lock-It is a <b>smart locking system</b> for student bikers. It increases the amount of bike storage available during peak times while not hindering upon pedestrian traffic.
+					</div>
+
+					<br>
+
+					<div class="role">
+						<b>Role:</b> UX/UI Designer &amp; Researcher<br>
+
+						<b>Methods:</b> Persona, Storyboard, Wireframe, Survey, Interview, Contextual Inquiry, Affinity Map, Interactive Prototyping, User Testing<br>
+
+						<b>Tools:</b> Sketch, FramerJS
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m12">
+					<h4>OBJECTIVE</h4>
+
+					<p>
+						<b>Our goal was to increase overall bicycle storage.</b> 8.2% of students at Georgia Tech commute via bicycle. During peak times, such as in between classes, student bikers often have trouble finding parking spaces.  They have to spend long amounts of time finding a spot, which is a significant inconvenience when trying to get to class. To address this user need, we developed a holistic solution, from the mobile phone app to the physical rack and lock. While the system is intended for student bikers, we designed it so that it is scalable to a city-wide scope.
+
+						<br><br>I focused on conducting user interviews and testing, storyboarding, designing wireframes and UI for the mobile app, and creating the interactive prototype in FramerJS.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 center-align">
+					<ul id="processNav">
+						<div class="col s3">
+							<li><a class="myNav" href="#uResearch">RESEARCH</a></li>
+						</div>
+						<div class="col s3">
+							<li><a class="myNav" href="#uDesign">DESIGN</a></li>
+						</div>
+						<div class="col s3">
+							<li><a class="myNav" href="#uPrototype">PROTOTYPE</a></li>
+						</div>
+						<div class="col s3">
+							<li><a class="myNav" href="#uEvaluation">EVALUATION</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+
+			<div class="divider"></div>
+
+			<div id="uResearch" class="row section scrollspy">
+				<div class="col s12 m12">
+					<h4>RESEARCH</h4>
+					<h6>
+						Target User Group
+					</h6>
+
+
+					<p>
+						Our target user group was <b>student bikers</b>. Initially, we chose student commuters as a user group. However, through user research, we narrowed our scope to student bikers because they represent a large proportion of commuter concerns.
+					</p>
+
+
+					<div class="row">
+						<div class="col s12 m6">
+
+							<h6>
+								Initial Interviews
+							</h6>
+
+							<p>
+								We conducted our first <b>semi-structured interview</b> with two members of the GT Police Department, which revealed that bicycle theft is a large concern. From this information, we conducted several informal interviews with bikers around campus and 12 semi-structured interviews with bikers who matched our target user group. Our goal was to better understand the concern for bicycle theft among the biking population.
+							</p>
+						</div>
+						<div class="col s12 m6">
+							<h6>Contextual Inquiry</h6>
+							<p>
+								In addition to our interviews, we also conducted two <b>contextual inquiries</b> with student bikers by attaching a GoPro to their helmets as they biked around campus. This allowed us to see how students maneuvered around campus and how they locked their bikes.
+							</p>
+						</div>
+					</div>
+					<h6>
+						Problem Space
+					</h6>
+					<div class="row">
+						<div class="col s12 m6">
+							<p>
+								We mapped out our notes and findings in an <b>affinity diagram</b>. We found 2 main problems:
+							</p>
+							<ol class="browser-default">
+								<li >Student bikers were having a hard time finding a space to park during peak time</li>
+								<li >Student bikers who had had their bike stolen had left their bike out for too long</li>
+							</ol>
+							<p>
+								From our findings, we were able to develop <b>two main personas</b> to better design for our target user group.
+
+							</p>
+						</div>
+						<div class="col s12 m6">
+							<img class="responsive-img" src="media/lockit/affinityMap.jpg"/>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/aliceP.png"/>
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/georgeP.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="divider"></div>
+
+			<div id="uDesign" class="row section scrollspy">
+				<div class="col s12 m12">
+					<h4>DESIGN</h4>
+					<h6>Brainstorming</h6>
+					<div class="row">
+						<div class="col s12 m6">
+							<p>
+								In a design sprint session, we generated over 20 different ideas that could address the problems described above. To narrow our ideas down, we mapped these 20 ideas on a feasibility versus usefulness graph. We ended up deciding on the concept of a modular bike storage. This idea would increase the amount of bike storage on an as-needed basis, without obstructing pedestrian or car traffic when not in use.
+							</p>
+						</div>
+						<div class="col s12 m6">
+							<img class="responsive-img" src="media/lockit/brainstorm.jpg"/>
+						</div>
+					</div>
+
+
+
+
+
+
+					<div class="row">
+						<div class="col s12 m6">
+							<h6>User Requirements &amp; Scenarios </h6>
+							<p>
+								User and system requirements were used to determine how the locking system would work from start to finish. This includes how the user would interact with the system and how the system components would interact with each other.</p>
+							</p>
+							<img class="responsive-img" src="media/lockit/reqs.png"/>
+							<br>
+							<p>For the mobile app design, we created 5 key scenarios that we wanted to address. These scenarios were developed from our contextual inquiry and user interview data.</p>
+
+							<img class="responsive-img" src="media/lockit/scenarios.png"/>
+
+
+						</div>
+						<div class="col s12 m6">
+							<h6>Storyboarding</h6>
+							<p>
+								To develop our scenarios further, we decided to draw out a storyboard of the user journey using our system, specifically the locking process.
+							</p>
+
+
+							<img class="responsive-img" src="media/lockit/storyboard.png"/>
+
+
+
+						</div>
+					</div>
+
+					<h6>Workflow &amp; Wireframes</h6>
+					<p>Based on the user requirements, scenarios, and user flows, we drew out a simple wireframe for each screen:</p>
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/wireframe1.jpg"/>
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/wireframe2.jpg"/>
+						</div>
+					</div>
+
+					<h6>Further Interviews &amp; Refinement</h6>
+					<p>
+						We conducted interviews with 3 experts in biking: a cyclist mechanic, a staff member at a bike shop, and a professor specializing in bicycles. We each came up with different design ideas to address the concept of modular bike storage. Based on our conversations, we decided on a modified U-Lock that attached to a special rack with two poles. Because it was similar to the standard U-Lock, there would not be a huge learning curve for users.
+						<br><br>
+					</p>
+
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/flexibleULock.JPG"/>
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/modifiedULock.JPG"/>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="divider"></div>
+			<div id="uPrototype" class="row section scrollspy">
+				<div class="col s12 m12">
+
+					<h4>PROTOTYPE</h4>
+
+
+					<h6>Low Fidelity Prototype</h6>
+					<p>
+						The physical device was made from insulation foam and wooden dowels. The mobile app was mocked up with Sketch and InVision.
+					</p>
+
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/3.jpg"/>
+								</div>
+
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/1.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/2.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/4.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/5.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/10.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/11.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/6.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/7.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/8.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/9.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/lofi/12.jpg"/>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/lofiphysical.jpg"/><br><br>
+							<img class="responsive-img" src="media/lockit/lofiphysical2.JPG"/>
+						</div>
+
+					</div>
+
+
+					<h6>Initial User Testing</h6>
+					<p>
+						We conducted user testing with the low fidelity prototypes to get preliminary feedback before creating a higher fidelity model. We found 2 main points from the initial testing:
+						<ol class="browser-default">
+							<li>Users preferred having just their phone out when unlocking their bike</li>
+							<li>Users felt that pulling the lock apart was too cumbersome</li>
+						</ol>
+					</p>
+					<h6>Refinement &amp; High Fidelity Prototype</h6>
+					<p>
+						Based on the feedback, we made adjustments to our prototype. Our final physical prototype for the lock was 3D modeled and printed. The rack was built with metal rods and wood. The mobile app was also designed with a new UI and put into FramerJS.
+					</p>
+
+
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/1.jpg"/>
+								</div>
+
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/2.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/3.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/4.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/5.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/6.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/7.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/8.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/9.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/10.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/11.jpg"/>
+								</div>
+								<div class="col s12 m4 center-align">
+									<img class="responsive-img" src="media/lockit/hifi/12.jpg"/>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/hifiphysical.jpg"/><br><br>
+							<img class="responsive-img" src="media/lockit/hifiphysical2.JPG"/>
+						</div>
+
+					</div>
+
+					<div class="row">
+						<div class="col s12 m12 center-align">
+							<iframe src="https://framer.cloud/MWlCZ/" width="100%" height="100%"></iframe>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="divider"></div>
+
+			<div id="uEvaluation" class="row section scrollspy">
+				<div class="col s12 m12">
+					<h4>EVALUATION</h4>
+
+					<div class="row">
+						<div class="col s12 m6">
+							<h6>User Testing</h6>
+
+							<p>
+
+								We conducted user testing by giving participants 3 tasks that represented the core functionality of the system:</p>
+								<ol class="browser-default">
+									<li>You are a new user. Please register to use the system.</li>
+									<li>You are on your way to X building. Please find an available spot to park your bike and lock it.</li>
+									<li>You are about to leave. Please unlock your bike.</li>
+								</ol>
+								<p>
+
+									For each task, we measured completion time, number of errors, and task success. The <b>System Usability Scale</b> was used to measure the perceived usability of the individual parts and the system overall. We also discussed about their experience using the product. Overall impressions were positive, as users were happy about the system's <b>ease of use</b> and how the app <b>seamlessly integrated</b> with the smart rack and lock. 
+
+								</p>
+
+							</div>
+
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/lockit/userTesting.jpg"/>
+							</div>
+
+						</div>
+
+						<h6>Reflection</h6>
+						<p>
+							<ul class="browser-default">
+								<li><i><b>Understand your target user group</b></i>. We went from student commuters to student bikers and found new user needs because we kept interviewing and consulting users. Because of this, we were able to address a true user need.</li>
+								<li><i><b>Low fidelity prototyping is important as designs will keep changing</b></i>. We went through several iterations of the modular bike storage model before finally arriving at our final design. So creating low fidelity prototypes will decrease any sunk cost.</li>
+								<li><i><b>Do not be afraid of "wild" ideas</b></i>. Because our group had a general rule of no judgment, we were able to keep coming up with ideas to solve our problem.</li>
+							</ul>				
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</main>
+
+<footer class="page-footer blue-grey darken-2">
+	<div class="container white-text">
+		Designed by Victoria Chai. Made with <a class="white-text" href="http://materializecss.com/"><b>Materialize</b></a>.
+	</div>
+</footer>
+
+<!--some javascript-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
