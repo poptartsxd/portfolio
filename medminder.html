@@ -1,0 +1,443 @@
+<html>
+
+<head>
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.css" media="screen, projection"/>
+	<link rel="stylesheet" href="css/style.css" media="screen, projection"/>
+</head>
+
+<body>
+
+	<div id ="goToTop"><i class="small material-icons white-text">navigation</i></div>
+
+	<!--Navbar-->
+
+	<header>
+		<div class="navbar-fixed">
+			<nav class="myOwnNav">
+				<div class="container">
+					<div class="nav-wrapper">
+						<a href="index.html" class="brand-logo blue-grey-text text-darken-2">VICTORIA CHAI</a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons blue-grey-text text-darken-2">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a class="myNav" href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a class="myNav" href="media/resume.pdf">RESUME</a></li>
+							<li><a class="myNav" href="about.html">ABOUT</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a href="#">RESUME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 center-align">
+					<h1>
+						MedMinder
+					</h1>
+					<p class="subtitle">
+						UX/UI Design, Prototyping   |   Aug ’16 - Dec ’16   |   Individual Project
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/medminder/medminder.jpg"/>
+				</div>
+
+				<div class="col s12 m6">
+
+					<div class="desc">
+						MedMinder is a 3-piece <b>caregiving system</b> for those taking care of the elderly. It not only reminds the patient when to take their medication(s), but also gives the caregiver a peace of mind when not near their loved ones.
+					</div>
+
+					<br>
+
+					<div class="role">
+						<b>My Role:</b> UX &amp; UI Designer<br>
+
+						<b>Methods:</b> Scenarios, Persona, Wireframe, User Testing, Interactive Prototyping, 3D Modeling<br>
+
+						<b>Tools:</b> Balsamiq, Sketch, Invision, FramerJS, Fusion 360
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m12">
+					<h4>OBJECTIVE</h4>
+
+					<p>
+						The main goal of this design was to <b>give caretakers a peace of mind when they are away from their elderly loved ones</b> by serving as a pill reminder and a checking method to ensure the overall well-being and status of the patient. Caregivers need to make sure that elderly patients take the the correct medication in a timely manner.</p>
+
+						<ul class="browser-default">
+
+							<li><b>Mobile app: </b> caregiver can manage system, receive notifications, and communicate with doctors</li>
+							<li><b>Pendant:</b> patient can receive reminders to take their pills </li>
+							<li><b>Pill dispense device:</b> patient can know which pill to take</li>
+						</ul>
+						<p>
+							This was an individual project, so I had the opportunity to design all three components from low fidelity wireframes to high fidelity prototypes, and even to 3D print the pendant I designed.
+						</p>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col s12 center-align">
+						<ul id="processNav">
+							<div class="col s3">
+								<li><a class="myNav" href="#pinitialconcepts">INITIAL CONCEPTS</a></li>
+							</div>
+							<div class="col s3">
+								<li><a class="myNav" href="#mobileapp">MOBILE APP DESIGN</a></li>
+							</div>
+							<div class="col s3">
+								<li><a class="myNav" href="#pendant">PENDANT DESIGN</a></li>
+							</div>
+							<div class="col s3">
+								<li><a class="myNav" href="#pill">PILL REMINDER DEVICE</a></li>
+							</div>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="divider"></div>
+
+				<div id="pinitialconcepts" class="row section scrollspy">
+
+					<div class="col s12 m12">
+
+						<h4>INITIAL CONCEPTS</h4>
+
+						<h6>Scenario-Based Design</h6>
+
+
+						<p>
+
+							Caregiving for the elderly can add stress to a person's life. Talking to caregivers, I found the biggest concerns to be:
+
+							<ol class="browser-default">
+								<li>Making sure accurate and all medication is taken timely</li>
+								<li>Receiving quick answers from doctors about minor symptoms</li>
+							</ol>
+
+						</p>
+						<div class="row">
+							<div class="col s12 m6">
+								<img class="responsive-img" src="media/medminder/scenario.jpg"/>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/persona.jpg"/>
+							</div>
+						</div>
+
+
+						<h6>Workflow</h6>
+
+						<p>Interaction between each player in the system:</p>
+						<div class="row">
+							<div class="col s12 m8 offset-m2 center-align">
+
+
+								<img class="responsive-img" src="media/medminder/interaction.jpg"/>
+							</div>
+
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="divider"></div>
+				<div id="mobileapp" class="row section scrollspy">
+
+					<div class="col s12 m12">
+
+						<h4>MOBILE APP DESIGN</h4>
+						<h6>Functionality</h6>
+						<p>Based on the scenarios and talking to users, the mobile app should: </p>
+
+
+						<ul class="browser-default">
+							<li>Notify caregiver of missed pills</li>
+							<li>Allow caregiver to manage pills</li>
+							<li>Allow caregiver to communicate with doctors and nurses</li>
+						</ul>
+
+						<h6>Low Fidelity Prototype</h6>
+
+						<p>I originally used Balsamiq to create the low fidelity prototypes. While it was an easy tool to learn, I felt that it was limiting as it can bias you towards creating an iOS app. I felt that sketching the wireframes gave you more freedom.</p>
+
+						<div class="row">
+							<div class="col s12 m6 center-align">
+
+								<div class="row">
+									<div class="col s12 m4 center-align">
+										<img class="responsive-img" src="media/medminder/lofi/1.jpg"/>
+									</div>
+									<div class="col s12 m4 center-align">
+										<img class="responsive-img" src="media/medminder/lofi/2.jpg"/>
+									</div>
+									<div class="col s12 m4 center-align">
+										<img class="responsive-img" src="media/medminder/lofi/3.jpg"/>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12 m4 center-align">
+										<img class="responsive-img" src="media/medminder/lofi/4.jpg"/>
+									</div>		
+									<div class="col s12 m4 center-align">
+										<img class="responsive-img" src="media/medminder/lofi/5.jpg"/>
+									</div>
+									<div class="col s12 m4 center-align">
+										<img class="responsive-img" src="media/medminder/lofi/6.jpg"/>
+									</div>																					
+								</div>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/lofi/handdrawn.jpg"/>
+							</div>
+							<h6>User Flow</h6>
+							<div class="row">
+								<div class="col s12 m8 offset-m2 center-align">
+
+
+									<img class="responsive-img" src="media/medminder/workflow.jpg"/>
+								</div>
+							</div>
+
+
+
+							<div class="row">
+								<div class="col s12 m6">
+
+									<h6><b>Design Decision #1: </b>List of medication</h6>
+								</div>
+								<div class="col s12 m6">
+									<h6><b>Design Decision #2: </b>Color coding pill status</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/medminder/hifi/1.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<p> I added a timeline for the main medication page so that users can see what is the next upcoming pill as well as past pills taken. <br><br> </p>
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/medminder/hifi/icons.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<p>  Color coding the different statuses of pills allows the user to get historical information about accuracy and timeliness of medication. <br><br> In addition, for missed pills, users can send a reminder to the patient. </p>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m6">
+
+									<h6><b>Design Decision #3: </b>List of appointments</h6>
+								</div>
+								<div class="col s12 m6">
+									<h6><b>Design Decision #4: </b>Requesting appointment</h6>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/medminder/hifi/2.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<p> Because patients have different doctors for different symptoms, I added this screen to allow caregivers to better organize information. <br><br>This is separated into confirmed appointments and requested appointments that doctors have yet to process. </p>
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/medminder/hifi/3.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<p> Caregivers can also send requests to doctors for an appointment. They can select the reason and an available date. This request will then be added to the "Requested" section. </p>
+								</div>
+							</div>
+
+
+							<div class="row">
+								<div class="col s12 m6">
+
+									<h6><b>Design Decision #5: </b>Messaging doctors</h6>
+								</div>
+
+							</div>
+
+
+							<div class="row">
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/medminder/hifi/4.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<p> I added the functionality of messaging doctors for quick questions that may not warrant a doctor visit. This allows fast and easy communication between doctor and caregiver.</p>
+								</div>
+							</div>
+
+							<p></p>
+
+							<h6>High Fidelity Prototype</h6>
+
+
+							<div class="col s12 m12 center-align">
+								<iframe src="https://framer.cloud/BYjNA/" width="100%" height="100%"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="divider"></div>
+
+				<div id="pendant" class="row section scrollspy">
+
+					<div class="col s12 m12">
+
+						<h4>PENDANT DESIGN</h4>
+
+
+						<h6>Sketches</h6>
+						<p>For the pendant design, I went through several sketches before coming to my final design concept. Originally, I wanted to use a smart watch concept. However, I felt that this may hinder elderly patients arm movements if it was too heavy as it required an interface. In the end, I decided upon a pocket watch-inspired pendant design.</p>
+
+
+						<div class="row">
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/initialPendant1.jpg"/>
+								<img class="responsive-img" src="media/medminder/initialPendant2.jpg"/>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/pendantSketch.jpg"/>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col s12 m6">
+								<h6><b>Design Decision #1: </b>Pendant Design</h6>
+
+
+								<p>The pendant is a wearable necklace that serves as a pill reminder device and a clock. I designed it to be worn around the patient's neck so it won't hinder any movement and will display simple messages for them to read.<br><br>Overall feedback for this design is that it is <b>unique and simple</b> for the patient to use.</p>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/pendant1.jpg"/>
+							</div>
+						</div>
+
+
+						<div class="row">
+							<div class="col s12 m6">
+								<h6><b>Design Decision #2: </b>Clock Feature</h6>
+								<p>The two hands of the pendant will give the time. The black hand is the minutes hand and the silver is the hours hand.<br><br>I chose to physically represent the hands so that it is easy for the patient to tell what time it is.</p>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/clock.jpg"/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m6">
+								<h6><b>Design Decision #2: </b>Upcoming Pill Reminder</h6>
+								<p>The pendant will vibrate twice 5 minutes before the next pill time. Or, the patient can press the botton to show the next upcoming pill. When the button is pressed and held, the hands of the clock will change to the time for the next upcoming pill. When released, the hands will go back to current time.<br><br>Utilizing the clock allows the patient to easily see when they need to take their next pill as well as tell them what pill to take.</p>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/upcoming.jpg"/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12 m6">
+								<h6><b>Design Decision #4: </b>Missed Pill Reminder</h6>
+								<p>The pendant will turn red if there is a missed pill. It will give a list of the pills that the user has missed and at what time they missed it.<br><br>The color of the missed pill notification is red so that the patient will be alerted. Having a vibration alert will also prompt them to look at the pendant.</p>
+							</div>
+							<div class="col s12 m6 center-align">
+								<img class="responsive-img" src="media/medminder/missedPill.jpg"/>
+							</div>
+						</div>	
+
+
+
+
+						<h6>3D Model</h6>
+
+
+						<p>The 3D model was mocked up in Fusion 360 and 3D printed.</p>
+
+
+						<div class="row">
+
+							<div class="col s12 m6 offset-m3 center-align">
+								<img class="responsive-img" src="media/medminder/3Dprint.png"/>
+							</div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
+
+				<div class="divider"></div>
+				<div id="pill" class="row section scrollspy">
+					<div class="col s12 m12">
+
+						<h4>PILL REMINDER DEVICE</h4>
+						<p>The third portion of the system is the pill reminder device that has its own interface.</p>
+						<h6>Flowchart</h6>
+						<p>To start off, I created a flowchart with the screens that the pill reminder device would show.</p>
+						<div class="row">
+							<div class="col s12 m12 center-align">
+								<img class="responsive-img" src="media/medminder/flowchart.png"/>
+							</div>
+						</div>
+
+						<h6>Interactive Prototype</h6>
+						<p>The screens were then placed into FramerJS and made interactive.</p>
+						<div class="row">
+							<div class="col s12 m12 center-align">
+								<iframe src="https://framer.cloud/EHipr/" width="70%" height="100%"></iframe>
+							</div>
+						</div>
+
+						<h6>Reflection</h6>
+						<p>
+							<ul class="browser-default">
+								<li><i><b>"You are not your user!"</b></i> As designers, this statement is drilled into our brains. For this project, I had to make sure that I was not designing for myself so I constantly talked to other caregivers to get their insights and feedbacks. This helped me develop empathy for my users and design a solution that addressed a true user need.</li>
+								<li><i><b>Paper and pencil is the best way to go.</b></i> I wanted to learn Balsamiq for the low fidelity prototype. However, I found that paper sketches was still the fastest and most fluid way to create low fidelity wireframes.</li>
+							</ul>				
+						</p>
+
+					</div>
+				</div>
+			</main>
+
+			<footer class="page-footer blue-grey darken-2">
+				
+
+				<div class="container white-text valign-wrapper">
+
+					<i class="tiny material-icons valign">email</i>&nbsp;<a class="white-text" href="mailto:victoriachai@gatech.edu"> victoriachai@gatech.edu </a>
+				</div>
+
+			</footer>
+
+			<!--some javascript-->
+			<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+			<script src="js/materialize.js"></script>
+			<script src="js/script.js"></script>
+
+		</body>
+
+		</html>

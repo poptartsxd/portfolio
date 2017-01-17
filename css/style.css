@@ -12,12 +12,75 @@ main
 	flex: 1 0 auto;
 }
 
+#goToTop
+{
+	position:fixed;
+	bottom: 50px;
+	right:50px;
+	background-color:rgb(200,200,200);
+	padding:10px;
+	border-radius: 50px;
+	display:none;
+
+}
+
+#goToTop:hover
+{
+	background-color: rgba(200,200,200, 0.5);
+	cursor: pointer;
+}
+
 #hero
 {
 	height:100%;
 	background-position:center center;
 	background-size:cover;
-	background-color:rgb(255, 255, 255);
+	background-color:rgb(255,255,255);
+	background-image: url("../media/bkgd.jpg");
+}
+
+#projectBtn
+{
+	position:relative;
+	border-radius: 5;
+}
+
+.projectBtnImg {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.projectBtnOverlay {
+  opacity: 0;
+  background-color:rgba(96,125,139,0.75);
+  transition: .5s ease;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  border-radius:5;
+}
+
+.projectBtnPlus
+{
+  color: white;
+  font-size: 100px;
+  height:100%;
+}
+
+#projectBtn:hover .projectBtnImg{
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+#projectBtn:hover .projectBtnOverlay {
+  opacity: 1;
+  cursor: pointer;
 }
 
 ul#processNav li
@@ -60,13 +123,13 @@ h6
 
 p, .desc, .role
 {
-	font-size:16px;
+	font-size:17px;
 	line-height: 1.75;
 }
 
 ol.browser-default, ul.browser-default
 {
-	font-size:16px;
+	font-size:17px;
 	line-height: 1.75;
 }
 
