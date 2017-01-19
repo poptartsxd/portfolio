@@ -34,58 +34,62 @@
 		</nav>
 	</div>
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m12 center-align">
-				<h1>
-					Lock-It
-				</h1>
-				<p class="subtitle">
-					UX/UI Design, Research, Prototyping   |   Aug ’16 - Dec ’16   |   Team Project
-				</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col s12 m6 center-align">
-				<img class="responsive-img" src="media/lockit/lockit.jpg"/>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12 center-align">
+					<h1>
+						Lock-It
+					</h1>
+					<p class="subtitle">
+						UX/UI Design, Research, Prototyping   |   Aug ’16 - Dec ’16   |   Team Project
+					</p>
+				</div>
 			</div>
 
-			<div class="col s12 m6">
-
-				<div class="desc">
-					Lock-It is a <b>smart locking system</b> for student bikers. It increases the amount of bike storage available during peak times while not hindering upon pedestrian traffic.
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/lockit.jpg"/>
 				</div>
 
-				<br>
+				<div class="col s12 m6">
 
-				<div class="role">
-					<b>My Role:</b> UX/UI Designer &amp; Researcher<br>
+					<div class="desc">
+						Lock-It is a <b>smart locking system</b> for student bikers. It increases the amount of bike storage available during peak times while not hindering upon pedestrian traffic.
+					</div>
 
-					<b>Methods:</b> Persona, Storyboard, Wireframe, Interview, Contextual Inquiry, Affinity Map, Prototyping, User Testing<br>
+					<br>
 
-					<b>Tools:</b> Sketch, FramerJS
+					<div class="role">
+						<b>My Role:</b> UX/UI Designer &amp; Researcher<br>
+
+						<b>Methods:</b> Persona, Storyboard, Wireframe, Interview, Contextual Inquiry, Affinity Map, Prototyping, User Testing<br>
+
+						<b>Tools:</b> Sketch, FramerJS
+					</div>
+
 				</div>
-
 			</div>
-		</div>
+
+			<div class="row">
+				<div class="col s12 m12">
+					<h4>OBJECTIVE</h4>
+
+					<p>
+						<b>Our goal was to increase overall bicycle storage.</b> 8.2% of students at Georgia Tech commute via bicycle. During peak times, such as in between classes, student bikers often have trouble finding parking spaces.  They have to spend long amounts of time finding a spot, which is a significant inconvenience when trying to get to class. To address this user need, we developed a holistic solution, from the mobile phone app to the physical rack and lock.
+
+						<br><br>I focused on conducting user interviews and testing, storyboarding, designing wireframes and UI for the mobile app, and creating the interactive prototype in Framer.
+					</p>
+				</div>
+			</div>
+
+
 
 		<div class="row">
-			<div class="col s12 m12">
-				<h4>OBJECTIVE</h4>
+			<div class="col hide-on-small-only m10">
 
-				<p>
-					<b>Our goal was to increase overall bicycle storage.</b> 8.2% of students at Georgia Tech commute via bicycle. During peak times, such as in between classes, student bikers often have trouble finding parking spaces.  They have to spend long amounts of time finding a spot, which is a significant inconvenience when trying to get to class. To address this user need, we developed a holistic solution, from the mobile phone app to the physical rack and lock.
 
-					<br><br>I focused on conducting user interviews and testing, storyboarding, designing wireframes and UI for the mobile app, and creating the interactive prototype in Framer.
-				</p>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="container" id="navBar2">
+<!-- 	<div class="container" id="navBar2">
 
 		<div class="row">
 			<div class="col s12 center-align">
@@ -106,510 +110,535 @@
 			</div>
 		</div>
 		
+	</div> -->
+
+
+
+	<div class="divider"></div>
+
+	<div id="uResearch" class="row section scrollspy">
+		<div class="col s12 m12">
+			<h4>RESEARCH</h4>
+			<h6>
+				Target User Group
+			</h6>
+
+
+			<p>
+				Our target users are <b>student bikers</b>, from novices to expert cyclists.
+			</p>
+
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/persona1.jpg"/>
+				</div>
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/persona2.jpg"/>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col s12 m6">
+					<h6>Interviews</h6>
+					<ul class="browser-default">
+						<li><b>Method: </b>semi-structured interviews</li>
+						<li><b>Who: </b>12 student bikers, 2 members of Georgia Tech Police Department</li>
+						<li><b>Goal: </b>to understand the concern for bicycle safety </li>
+					</ul>
+				</div>
+				<div class="col s12 m6">
+
+					<h6>Contextual Inquiry</h6>
+					<ul class="browser-default">
+						<li><b>Method: </b>attaching GoPros to bicycle helmets</li>
+						<li><b>Who: </b>2 student bikers</li>
+						<li><b>Tasks: </b>maneuvering around campus, locking bicycle</li>
+						<li><b>Goal: </b>to see how student bikers are finding parking spots</li>
+					</ul>
+				</div>
+			</div>
+			<h6>
+				Problem Space
+			</h6>
+			<div class="row">
+				<div class="col s12 m6">
+					<p>
+						We mapped out our notes and findings in an <b>affinity diagram</b> and found 2 main problems:
+					</p>
+					<ol class="browser-default">
+						<li >Student bikers were having a hard time finding a space to park during peak time</li>
+						<li >Student bikers who had had their bike stolen had left their bike out for too long</li>
+					</ol>
+
+				</div>
+				<div class="col s12 m6">
+					<img class="responsive-img" src="media/lockit/affinityMap.jpg"/>
+				</div>
+			</div>
+
+		</div>
 	</div>
 
-	<div class="container">
 
-		<div class="divider"></div>
+	<div class="divider"></div>
 
-		<div id="uResearch" class="row section scrollspy">
-			<div class="col s12 m12">
-				<h4>RESEARCH</h4>
-				<h6>
-					Target User Group
-				</h6>
-
-
-				<p>
-					Our target users are <b>student bikers</b>, from novices to expert cyclists.
-				</p>
-
-
-				<div class="row">
-					<div class="col s12 m6 center-align">
-						<img class="responsive-img" src="media/lockit/persona1.jpg"/>
-					</div>
-					<div class="col s12 m6 center-align">
-						<img class="responsive-img" src="media/lockit/persona2.jpg"/>
-					</div>
-				</div>
-				<div class="row">
-
-					<div class="col s12 m6">
-						<h6>Interviews</h6>
-						<ul class="browser-default">
-							<li><b>Method: </b>semi-structured interviews</li>
-							<li><b>Who: </b>12 student bikers, 2 members of Georgia Tech Police Department</li>
-							<li><b>Goal: </b>to understand the concern for bicycle safety </li>
-						</ul>
-					</div>
-					<div class="col s12 m6">
-
-						<h6>Contextual Inquiry</h6>
-						<ul class="browser-default">
-							<li><b>Method: </b>attaching GoPros to bicycle helmets</li>
-							<li><b>Who: </b>2 student bikers</li>
-							<li><b>Tasks: </b>maneuvering around campus, locking bicycle</li>
-							<li><b>Goal: </b>to see how student bikers are finding parking spots</li>
-						</ul>
-					</div>
-				</div>
-				<h6>
-					Problem Space
-				</h6>
-				<div class="row">
-					<div class="col s12 m6">
-						<p>
-							We mapped out our notes and findings in an <b>affinity diagram</b> and found 2 main problems:
-						</p>
-						<ol class="browser-default">
-							<li >Student bikers were having a hard time finding a space to park during peak time</li>
-							<li >Student bikers who had had their bike stolen had left their bike out for too long</li>
-						</ol>
-
-					</div>
-					<div class="col s12 m6">
-						<img class="responsive-img" src="media/lockit/affinityMap.jpg"/>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-
-		<div class="divider"></div>
-
-		<div id="uDesign" class="row section scrollspy">
-			<div class="col s12 m12">
-				<h4>DESIGN</h4>
-				<h6>Brainstorming</h6>
-				<div class="row">
-					<div class="col s12 m6">
-						<p>
-							In a design sprint session, we generated over 20 different ideas that could address the problems described above. To narrow our ideas down, we mapped these 20 ideas on a feasibility versus usefulness graph. We ended up deciding on the concept of a <b>modular bike storage system</b> that will: 
-						</p>
-
-						<ul class="browser-default">
-							<li>Increase amount of bike storage on an as-needed basis</li>
-							<li>Notify bikers where there are available spaces</li>
-							<li>Notify bikers when their bike has been left out for too long</li>
-						</ul>
-					</div>
-					<div class="col s12 m6">
-						<img class="responsive-img" src="media/lockit/brainstorm.jpg"/>
-					</div>
-				</div>
-
-
-
-
-
-
-				<div class="row">
-					<div class="col s12 m6">
-						<h6>Storyboard</h6>
-						<p>
-							The user journey using our system to lock their bike:
-						</p>
-
-
-						<img class="responsive-img" src="media/lockit/storyboard.png"/>
-
-
-
-					</div>
-					<div class="col s12 m6">
-						<h6>User Flow &amp; Wireframe</h6>
-
-
-						<p>Sketches of the flow and preliminary mobile app wireframes:  </p>
-
-						<div class="row">
-							<div class="col s12 m6 center-align">
-								<img class="responsive-img" src="media/lockit/initialWireframe1.jpg"/>
-							</div>
-							<div class="col s12 m6 center-align">
-								<img class="responsive-img" src="media/lockit/initialwireframe2.jpg"/>		
-							</div>
-						</div>		
-
-						<div class="row">
-							<div class="col s12 m6 center-align">
-								<img class="responsive-img" src="media/lockit/wireframe1.jpg"/>
-							</div>
-							<div class="col s12 m6 center-align">
-								<img class="responsive-img" src="media/lockit/wireframe2.jpg"/>		
-							</div>
-						</div>					
-					</div>
-
-
-				</div>
-
-
-
-				<h6>Physical Locking System</h6>
-				<p>
-					Preliminary sketches for the physical rack and lock: 
-					<br><br>
-				</p>
-
-				<div class="row">
-					<div class="col s12 m6 center-align">
-						<img class="responsive-img" src="media/lockit/flexibleULock.jpg"/>
-					</div>
-					<div class="col s12 m6 center-align">
-						<img class="responsive-img" src="media/lockit/modifiedULock.jpg"/>
-					</div>
-				</div>
-				<p class="center-align" style="font-size:14px;"><i>Physical prototype sketches done by teammate</i></p>
-
-			</div>
-		</div>
-
-
-		<div class="divider"></div>
-		<div id="uPrototype" class="row section scrollspy">
-			<div class="col s12 m12">
-
-				<h4>PROTOTYPE</h4>
-
-
-				<h6>Low Fidelity Prototype</h6>
-				<p>
-					The physical device was made from insulation foam and wooden dowels. For the mobile app, main functionalities include:
+	<div id="uDesign" class="row section scrollspy">
+		<div class="col s12 m12">
+			<h4>DESIGN</h4>
+			<h6>Brainstorming</h6>
+			<div class="row">
+				<div class="col s12 m6">
+					<p>
+						In a design sprint session, we generated over 20 different ideas that could address the problems described above. To narrow our ideas down, we mapped these 20 ideas on a feasibility versus usefulness graph. We ended up deciding on the concept of a <b>modular bike storage system</b> that will: 
+					</p>
 
 					<ul class="browser-default">
-						<li><b>Registration:</b> register bike information that will be sent to the police department in case the bike is stolen</li>
-						<li><b>Search:</b> search for available spots at destination</li>
-						<li><b>Favorites: </b>add/remove favorite locations for faster search</li>
-						<li><b>Lock:</b> activate smart lock to wheel bike into rack</li>
-						<li><b>Notification:</b> alerts when bike is left for too long or when someone is tampering with lock</li>
+						<li>Increase amount of bike storage on an as-needed basis</li>
+						<li>Notify bikers where there are available spaces</li>
+						<li>Notify bikers when their bike has been left out for too long</li>
 					</ul>
-				</p>
+				</div>
+				<div class="col s12 m6">
+					<img class="responsive-img" src="media/lockit/brainstorm.jpg"/>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="row">
+				<div class="col s12 m6">
+					<h6>Storyboard</h6>
+					<p>
+						The user journey using our system to lock their bike:
+					</p>
+
+
+					<img class="responsive-img" src="media/lockit/storyboard.png"/>
+
+
+
+				</div>
+				<div class="col s12 m6">
+					<h6>User Flow &amp; Wireframe</h6>
+
+
+					<p>Sketches of the flow and preliminary mobile app wireframes:  </p>
+
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/initialWireframe1.jpg"/>
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/initialwireframe2.jpg"/>		
+						</div>
+					</div>		
+
+					<div class="row">
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/wireframe1.jpg"/>
+						</div>
+						<div class="col s12 m6 center-align">
+							<img class="responsive-img" src="media/lockit/wireframe2.jpg"/>		
+						</div>
+					</div>					
+				</div>
+
+
+			</div>
+
+
+
+			<h6>Physical Locking System</h6>
+			<p>
+				Preliminary sketches for the physical rack and lock: 
+				<br><br>
+			</p>
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/flexibleULock.jpg"/>
+				</div>
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/modifiedULock.jpg"/>
+				</div>
+			</div>
+			<p class="center-align" style="font-size:14px;"><i>Physical prototype sketches done by teammate</i></p>
+
+		</div>
+	</div>
+
+
+	<div class="divider"></div>
+	<div id="uPrototype" class="row section scrollspy">
+		<div class="col s12 m12">
+
+			<h4>PROTOTYPE</h4>
+
+
+			<h6>Low Fidelity Prototype</h6>
+			<p>
+				The physical device was made from insulation foam and wooden dowels. For the mobile app, main functionalities include:
+
+				<ul class="browser-default">
+					<li><b>Registration:</b> register bike information that will be sent to the police in case the bike is stolen</li>
+					<li><b>Search:</b> search for available spots at destination</li>
+					<li><b>Favorites: </b>add/remove favorite locations for faster search</li>
+					<li><b>Lock:</b> activate smart lock to wheel bike into rack</li>
+					<li><b>Notification:</b> alerts when bike is left out for too long or when someone is tampering with lock</li>
+				</ul>
+			</p>
+
+			<div class="row">
+				<div class="col s12 m12 center-align">
+
+					<div class="row">
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/3.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Registration</i></p>
+						</div>
+
+
+
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/4.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Search</i></p>									
+						</div>
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/5.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Favorites</i></p>									
+						</div>
+
+
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/13.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Lock</i></p>									
+						</div>
+</div>
+<div class="row">
+
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/10.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>While locking - 1</i></p>									
+						</div>
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/11.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>While locking - 2</i></p>											
+						</div>
+
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/6.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Locked screen - 1</i></p>										
+						</div>
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/7.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Locked screen - 2</i></p>										
+						</div>
+
+					</div>
+					<div class="row">
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/8.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Notifications - 8 hours</i></p>										
+						</div>
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/9.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Notifications - 1 month</i></p>										
+						</div>
+						<div class="col s12 m3 center-align">
+							<img class="responsive-img" src="media/lockit/lofi/12.jpg"/>
+							<p class="center-align" style="font-size:14px"><i>Notifications - theft</i></p>										
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col s12 m8 offset-m2 center-align">
+					<img class="responsive-img" src="media/lockit/lofiphysical.jpg"/>					
+				</div>
+
+			</div>
+
+
+
+			<div class="row">
+				<div class="col s12 m6">
+
+					<h6><b>Design Decision #1:</b> Available spots displayed on map</h6>
+
+
+				</div>
+
+
+
+				<div class="col s12 m6">
+
+					<h6><b>Design Decision #2:</b> Add/Remove favorites directly from search bar</h6>		
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m3 center-align">
+					<img class="responsive-img" src="media/lockit/hifi/3.jpg"/>
+				</div>
+				<div class="col s12 m3">
+					<p>We wanted to show bikers available parking spots so that they could plan their routes efficienctly. We removed the heat map because initial user testing told us users found it confusing.</p>
+				</div>
+				<div class="col s12 m3 center-align">
+					<img class="responsive-img" src="media/lockit/hifi/4.jpg"/>
+				</div>
+				<div class="col s12 m3">
+					<p>Displaying the favorites list directly from the search results allows users to search for their saved locations faster.<br><br>Feedback from users were positive about this feature as they liked the quick access to their frequent destinations.</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col s12 m6">
+
+					<h6><b>Design Decision #3:</b> One minute to lock bicycle</h6>
+
+				</div>
+				<div class="col s12 m6">
+
+					<h6><b>Design Decision #4:</b> Unlock with fingerprint</h6>		
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m3 center-align">
+					<img class="responsive-img" src="media/lockit/hifi/6.jpg"/>
+				</div>
+				<div class="col s12 m3">
+					<p>We gave users one minute to lock their bike to standardize the amount of time for locking. This decreases the chance of obstruction of traffic but gives users enough time to lock their bikes.</p>
+				</div>
+				<div class="col s12 m3 center-align">
+					<img class="responsive-img" src="media/lockit/hifi/13.jpg"/>
+				</div>
+				<div class="col s12 m3">
+					<p>Using the thumbprint feature in the phone to unlock the bike decreases the amount of items the user has to carry around (i.e. using a key to unlock the bike).<br><br>In our initial tests, users preferred using the TouchID because they generally will already have their phone in their hands.</p>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col s12 m6">
+
+					<h6><b>Design Decision #5:</b> Displaying a map when bike is locked</h6>
+
+				</div>
+				<div class="col s12 m6">
+
+					<h6><b>Design Decision #6:</b> Actionable steps when someone is tampering bike lock</h6>		
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m3 center-align">
+					<img class="responsive-img" src="media/lockit/hifi/7.jpg"/>
+				</div>
+				<div class="col s12 m3">
+					<p>We added a map to show where the user's bike is parked because, in our research, we found that student bikers will forget where they parked, thus increasing search time.</p>
+				</div>
+				<div class="col s12 m3 center-align">
+					<img class="responsive-img" src="media/lockit/hifi/12.jpg"/>
+				</div>
+				<div class="col s12 m3">
+					<p>We added actionable steps that users can select if someone is stealing their bike. From our research, we found that bikers will either want to notify police, go outside themselves to look at their bike, or ignore the notification. </p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m12">
+
+					<h6><b>Design Decision #7:</b> Physical rack and lock</h6>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+					<img class="responsive-img" src="media/lockit/hifiphysical.jpg"/>
+				</div>
+				<div class="col s12 m6">
+					<p>Our design for the lock is a modified U-Lock so that there is not a huge learning curve for the user. <br><br>The smart lock will allow the bar to push through so that users could use one hand to adjust it, decreasing locking time. The metal bars from the rack will raise when activated with the mobile app. When not in use, the bars will be hidden so as not to obstruct traffic.<br><br>Initial feedback from users was that this was a cool design as they do not have to deal with the chaos of current bikes, such as bikes getting tangled.</p>
+				</div>
+			</div>					
+
+			<h6>High Fidelity Prototype</h6>
+			<p>
+				Our final physical prototype for the lock was 3D modeled and printed. The rack was built with metal rods and wood. The mobile app was designed in Sketch and made interactive with Framer.</p>
+
 
 				<div class="row">
 					<div class="col s12 m12 center-align">
+						<div class="row">
+
+
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/2.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Registration</i></p>										
+							</div>
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/3.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Search</i></p>										
+							</div>
+
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/4.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Favorites</i></p>										
+							</div>
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/5.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Lock</i></p>										
+							</div>
+							</div>
+							<div class="row">
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/6.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>While locking</i></p>										
+							</div>
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/13.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Unlock</i></p>										
+							</div>
+
+
+			
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/7.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Locked screen - 1</i></p>											
+							</div>
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/8.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Locked screen - 2</i></p>											
+							</div>
+
+										</div>
 
 						<div class="row">
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/3.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Registration</i></p>
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/9.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Locked screen - 3</i></p>											
 							</div>
 
-
-
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/4.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Search</i></p>									
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/10.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Notifications - 8 hours</i></p>											
 							</div>
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/5.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Favorites</i></p>									
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/11.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Notifications - 1 month</i></p>											
 							</div>
-
-
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/13.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Lock</i></p>									
-							</div>
-
-
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/10.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>While locking - 1</i></p>									
-							</div>
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/11.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>While locking - 2</i></p>											
-							</div>
-						</div>
-						<div class="row">
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/6.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Locked screen - 1</i></p>										
-							</div>
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/7.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Locked screen - 2</i></p>										
-							</div>
-
-
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/8.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Notifications - 8 hours</i></p>										
-							</div>
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/9.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Notifications - 1 month</i></p>										
-							</div>
-							<div class="col s12 m2 center-align">
-								<img class="responsive-img" src="media/lockit/lofi/12.jpg"/>
-								<p class="center-align" style="font-size:14px"><i>Notifications - theft</i></p>										
+							<div class="col s12 m3 center-align">
+								<img class="responsive-img" src="media/lockit/hifi/12.jpg"/>
+								<p class="center-align" style="font-size:14px"><i>Notifications - theft</i></p>											
 							</div>
 						</div>
 
 					</div>
 				</div>
 				<div class="row">
-
 					<div class="col s12 m8 offset-m2 center-align">
-						<img class="responsive-img" src="media/lockit/lofiphysical.jpg"/>					
+
+						<img class="responsive-img" src="media/lockit/physical.JPG"/>
 					</div>
 
 				</div>
 
+				<div class="row">
+					<h6>Interactive Prototype for Mobile App</h6>
+					<div class="col s12 m12 center-align">
+						<iframe src="https://framer.cloud/MWlCZ/" width="100%" height="100%"></iframe>
+					</div>
+				</div>
 
+			</div>
+		</div>
+
+		<div class="divider"></div>
+
+		<div id="uEvaluation" class="row section scrollspy">
+			<div class="col s12 m12">
+				<h4>EVALUATION</h4>
 
 				<div class="row">
 					<div class="col s12 m6">
+						<h6>User Testing</h6>
 
-						<h6><b>Design Decision #1:</b> Available spots displayed on map</h6>
+						<p>
 
-					</div>
-					<div class="col s12 m6">
+							We conducted user testing by giving participants tasks that represented the core functionality of the system.
 
-						<h6><b>Design Decision #2:</b> Add/Remove favorites directly from search bar</h6>		
+							We measured completion time, number of errors, and task success. The <b>System Usability Scale</b> was used to measure the perceived usability of the individual parts and the system overall. We also discussed their experience using the product. Overall impressions were positive, as users were happy about the system's <b>ease of use</b> and how the app <b>seamlessly integrated</b> with the smart rack and lock. 
 
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col s12 m3 center-align">
-						<img class="responsive-img" src="media/lockit/hifi/3.jpg"/>
-					</div>
-					<div class="col s12 m3">
-						<p>We wanted to show bikers available parking spots so that they could plan their routes efficienctly. We removed the heat map because initial user testing told us users found it confusing.</p>
-					</div>
-					<div class="col s12 m3 center-align">
-						<img class="responsive-img" src="media/lockit/hifi/4.jpg"/>
-					</div>
-					<div class="col s12 m3">
-						<p>Displaying the favorites list directly from the search results allows users to search for their saved locations faster.<br><br>Feedback from users were positive about this feature as they liked the quick access to their frequent destinations.</p>
-					</div>
-				</div>
-
-
-				<div class="row">
-					<div class="col s12 m6">
-
-						<h6><b>Design Decision #3:</b> One minute to lock bicycle</h6>
-
-					</div>
-					<div class="col s12 m6">
-
-						<h6><b>Design Decision #4:</b> Unlock with fingerprint</h6>		
-
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col s12 m3 center-align">
-						<img class="responsive-img" src="media/lockit/hifi/6.jpg"/>
-					</div>
-					<div class="col s12 m3">
-						<p>We gave users one minute to lock their bike to standardize the amount of time for locking. This decreases the chance of obstruction of traffic but gives users enough time to lock their bikes.</p>
-					</div>
-					<div class="col s12 m3 center-align">
-						<img class="responsive-img" src="media/lockit/hifi/13.jpg"/>
-					</div>
-					<div class="col s12 m3">
-						<p>Using the thumbprint feature in the smartphone to unlock the bike decreases the amount of items the user has to carry around (i.e. using a key to unlock the bike).<br><br>In our initial tests, users preferred using the TouchID because they generally will already have their phone in their hands.</p>
-					</div>
-				</div>
-
-
-				<div class="row">
-					<div class="col s12 m6">
-
-						<h6><b>Design Decision #5:</b> Displaying a map when bike is locked</h6>
-
-					</div>
-					<div class="col s12 m6">
-
-						<h6><b>Design Decision #6:</b> Actionable steps when someone is tampering bike lock</h6>		
-
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col s12 m3 center-align">
-						<img class="responsive-img" src="media/lockit/hifi/7.jpg"/>
-					</div>
-					<div class="col s12 m3">
-						<p>We added a map to show where the user's bike is parked because, in our research, we found that student bikers will forget where they parked, thus increasing search time.</p>
-					</div>
-					<div class="col s12 m3 center-align">
-						<img class="responsive-img" src="media/lockit/hifi/12.jpg"/>
-					</div>
-					<div class="col s12 m3">
-						<p>We added actionable steps that users can select if someone is stealing their bike. From our research, we found that bikers will either want to notify police, go outside themselves to look at their bike, or ignore the notification. </p>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col s12 m12">
-
-						<h6><b>Design Decision #7:</b> Physical rack and lock</h6>
+						</p>
 
 					</div>
 
-				</div>
-
-				<div class="row">
 					<div class="col s12 m6 center-align">
-						<img class="responsive-img" src="media/lockit/hifiphysical.jpg"/>
+						<img class="responsive-img" src="media/lockit/userTesting.jpg"/>
 					</div>
-					<div class="col s12 m6">
-						<p>Our design for the lock is a modified U-Lock so that there is not a huge learning curve for the user. <br><br>The smart lock will allow the bar to push through so that users could use one hand to adjust it, decreasing locking time. The metal bars from the rack will raise when activated with the mobile app. When not in use, the bars will be hidden so as not to obstruct traffic.<br><br>Initial feedback from users was that this was a cool design as they do not have to deal with the chaos of current bikes, such as bikes getting tangled.</p>
-					</div>
-				</div>					
 
-				<h6>High Fidelity Prototype</h6>
+				</div>
+
+				<h6>Reflection</h6>
 				<p>
-					Our final physical prototype for the lock was 3D modeled and printed. The rack was built with metal rods and wood. The mobile app was designed in Sketch and made interactive with Framer.</p>
-
-
-					<div class="row">
-						<div class="col s12 m12 center-align">
-							<div class="row">
-
-
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/2.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Registration</i></p>										
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/3.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Search</i></p>										
-								</div>
-
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/4.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Favorites</i></p>										
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/5.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Lock</i></p>										
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/6.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>While locking</i></p>										
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/13.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Unlock</i></p>										
-								</div>
-
-
-							</div>
-
-							<div class="row">
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/7.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Locked screen - 1</i></p>											
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/8.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Locked screen - 2</i></p>											
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/9.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Locked screen - 3</i></p>											
-								</div>
-
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/10.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Notifications - 8 hours</i></p>											
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/11.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Notifications - 1 month</i></p>											
-								</div>
-								<div class="col s12 m2 center-align">
-									<img class="responsive-img" src="media/lockit/hifi/12.jpg"/>
-									<p class="center-align" style="font-size:14px"><i>Notifications - theft</i></p>											
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="row">
-						<div class="col s12 m8 offset-m2 center-align">
-
-							<img class="responsive-img" src="media/lockit/physical.JPG"/>
-						</div>
-
-					</div>
-
-					<div class="row">
-						<h6>Interactive Prototype for Mobile App</h6>
-						<div class="col s12 m12 center-align">
-							<iframe src="https://framer.cloud/MWlCZ/" width="100%" height="100%"></iframe>
-						</div>
-					</div>
-
-				</div>
+					<ul class="browser-default">
+						<li><i><b>Understand your target user group</b></i>. We went from student commuters to student bikers and found new user needs because we kept interviewing and consulting users. Because of this, we were able to address a true user need.</li>
+						<li><i><b>Low fidelity prototyping is important as designs will keep changing</b></i>. We went through several iterations of the modular bike storage model before finally arriving at our final design. So creating low fidelity prototypes will decrease any sunk cost.</li>
+						<li><i><b>Do not be afraid of "wild" ideas</b></i>. Because our group had a general rule of no judgment, we were able to keep coming up with ideas to solve our problem.</li>
+					</ul>				
+				</p>
 			</div>
-
-			<div class="divider"></div>
-
-			<div id="uEvaluation" class="row section scrollspy">
-				<div class="col s12 m12">
-					<h4>EVALUATION</h4>
-
-					<div class="row">
-						<div class="col s12 m6">
-							<h6>User Testing</h6>
-
-							<p>
-
-								We conducted user testing by giving participants tasks that represented the core functionality of the system.
-
-								We measured completion time, number of errors, and task success. The <b>System Usability Scale</b> was used to measure the perceived usability of the individual parts and the system overall. We also discussed their experience using the product. Overall impressions were positive, as users were happy about the system's <b>ease of use</b> and how the app <b>seamlessly integrated</b> with the smart rack and lock. 
-
-							</p>
-
-						</div>
-
-						<div class="col s12 m6 center-align">
-							<img class="responsive-img" src="media/lockit/userTesting.jpg"/>
-						</div>
-
-					</div>
-
-					<h6>Reflection</h6>
-					<p>
-						<ul class="browser-default">
-							<li><i><b>Understand your target user group</b></i>. We went from student commuters to student bikers and found new user needs because we kept interviewing and consulting users. Because of this, we were able to address a true user need.</li>
-							<li><i><b>Low fidelity prototyping is important as designs will keep changing</b></i>. We went through several iterations of the modular bike storage model before finally arriving at our final design. So creating low fidelity prototypes will decrease any sunk cost.</li>
-							<li><i><b>Do not be afraid of "wild" ideas</b></i>. Because our group had a general rule of no judgment, we were able to keep coming up with ideas to solve our problem.</li>
-						</ul>				
-					</p>
-				</div>
-			</div>
-
 		</div>
 
 	</div>
 
-
-
-
-	<footer class="page-footer blue-grey darken-2">
-
-
-		<div class="container white-text valign-wrapper">
-
-			<i class="tiny material-icons valign">email</i>&nbsp;<a class="white-text" href="mailto:victoriachai@gatech.edu"> victoriachai@gatech.edu </a>
+	<div class="col hide-on-small-only m2">
+		<div class="lockitProcessNav">
+			<ul class="section table-of-contents">
+				<li><a href="#uResearch">RESEARCH</a></li>
+				<li><a href="#uDesign">DESIGN</a></li>
+				<li><a href="#uPrototype">PROTOTYPE</a></li>
+				<li><a href="#uEvaluation">EVALUATION</a></li>        
+			</ul>
 		</div>
+	</div>
 
-	</footer>
+</div>
 
-	<!--some javascript-->
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="js/materialize.js"></script>
-	<script src="js/script.js"></script>
+</div>
+
+
+
+
+
+</main>
+
+<footer class="page-footer blue-grey darken-2">
+
+
+	<div class="container white-text valign-wrapper">
+
+		<i class="tiny material-icons valign">email</i>&nbsp;<a class="white-text" href="mailto:victoriachai@gatech.edu"> victoriachai@gatech.edu </a>
+	</div>
+
+</footer>
+
+<!--some javascript-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 

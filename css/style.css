@@ -50,6 +50,14 @@ main
 	border-radius: 5;
 }
 
+.table-of-contents a.active {
+    border-left: 2px solid #455a64;
+}
+
+.table-of-contents a:hover {
+    border-left: 1px solid #455a64;
+}
+
 .projectBtnImg {
   opacity: 1;
   display: block;
