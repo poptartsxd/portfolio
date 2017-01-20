@@ -1,0 +1,577 @@
+<html>
+<head>
+	<title>Photorize</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.css" media="screen, projection"/>
+	<link rel="stylesheet" href="css/style.css" media="screen, projection"/>
+	<link rel="icon" type="image/png" href="media/favicon.png" />		
+</head>
+
+<body>
+	<div id ="goToTop"><i class="small material-icons white-text">navigation</i></div>
+	<!--Navbar-->
+	<header>
+		<div class="navbar-fixed">
+			<nav class="myOwnNav">
+				<div class="container">
+					<div class="nav-wrapper">
+						<a href="index.html" class="brand-logo blue-grey-text text-darken-2">VICTORIA CHAI</a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons blue-grey-text text-darken-2">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a class="myNav" href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a class="myNav" href="media/resume.pdf">RESUME</a></li>
+							<li><a class="myNav" href="about.html">ABOUT</a></li>
+						</ul>
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="index.html#portfolio">PORTFOLIO</a></li>
+							<li><a href="media/resume.pdf">RESUME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+
+
+		<div class="container">
+
+
+
+
+
+			<div class="row">
+				<div class="col s12 m12 center-align">
+					<h1>
+						Photorize
+					</h1>
+					<p class="subtitle">
+						UX/UI Design, Research, Prototyping  |   October ’16 - Present   |   Personal Project
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m6 center-align">
+				<img class="responsive-img" src="media/photorize/photorize.jpg"/>
+				</div>
+
+				<div class="col s12 m6">
+
+					<div class="desc">
+						Photorize is a <b>mobile app</b> that helps photographers find locations to shoot at. Drawing from the experience of other photographers, Photorize guides those who are unfamiliar with an area to discover new places that suit their needs.
+					</div>
+
+					<br>
+
+					<div class="role">
+						<b>My Role:</b> UX/UI Designer &amp; Researcher<br>
+
+						<b>Methods:</b> Persona, Wireframe, Interview, Paper Prototyping, User Testing<br>
+
+						<b>Tools:</b> Sketch, Paper Prototypes
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s12 m6">
+					<h4>OVERVIEW</h4>
+
+					<p>
+						<b>My goal was to help casual photographers find new locations to shoot at.</b> Through my research, I found out that when photographers go to a new location, they would have difficulty finding a place to shoot. My mobile app solves for this user need by displaying recommended locations with sample photos so that users will know where to go.
+
+					</p>
+				</div>
+				<div class="col s12 m6 center-align">
+
+				<img class="responsive-img" src="media/photorize/photorizeinfo.jpg"/>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col hide-on-small-only m10">
+
+					<div class="divider"></div>
+
+
+					<div id="pResearch" class="row section scrollspy">
+
+						<div class="col s12 m12">
+							<h4>RESEARCH </h4>
+							<div class="row">
+								<div class="col s12 m6">
+									<h6>Target User Group</h6>
+
+									<p>My target users are <b>casual photographers</b>. This level of photographers have the following characteristics:</p>
+									<ul class="browser-default">
+										<li>Treats photography like a hobby and not a job</li>
+										<li>Likes to post photos on social media</li>
+										<li>Will plan out photoshoots with friends</li>
+										<li>Owns a digital camera (i.e. DSLR)</li>								
+									</ul>
+								</div>
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/persona.jpg"/>
+								</div>
+							</div>
+
+
+
+
+							<div class="row">
+								<div class="col s12 m6">
+									<h6>Interviews</h6>
+									<ul class="browser-default">
+										<li><b>Method: </b>semi-structured interviews</li>
+										<li><b>Who: </b>3 casual photographers, 2 amateur photographers</li>
+										<li><b>Goal: </b>to better understand how photographers prepare for a photoshoot</li>
+									</ul>
+								</div>
+								<div class="col s12 m6">
+									<img class="responsive-img" src="media/photorize/interview.jpg"/>
+
+								</div>
+							</div>
+							<h6>Problem Space</h6>
+							<div class="row">
+								<div class="col s12 m12">
+									<p>After analyzing my interview data, I discovered the following findings:</p>
+									<ul class="browser-default">
+										<li><b>Now: </b>at a new place, users will oftentimes not know where to shoot and spend time wandering around</li>
+										<li><b>Future: </b>when planning to go to a new place, users will spend a long time trying to search online for locations to shoot at</li>								
+									</ul>
+								</div>
+								<div class="col s12 m6 center-align">
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="divider"></div>
+
+					<div id="pDesign" class="row section scrollspy">
+						<div class="col s12 m12">
+							<h4>DESIGN</h4>
+
+
+							<h6>Idea Generation</h6>
+							<p>Based on the user needs, the solution should:</p>
+							<ul class="browser-default">
+								<li><b>Now: </b>Allow photographers to see nearby locations when they are at a new place</li>								
+								<li><b>Future: </b>Allow photographers to search for locations when they are planning to go to a new place</li>
+								<li><b>Future: </b>Allow photographers to save locations for future reference</li>							
+							</ul>
+
+
+
+							<h6>Wireframes &amp; Workflow</h6>
+							<p>Wireframes and workflows were done to envision how the device would look and how users would interact with it. I went through multiple iterations of the workflow.</p>
+
+							<p class="center-align" style="font-size:16px;"><b>Wireframe - Iteration 1</b></p>		
+							<div class="row">
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/wireframe1.jpg"/><br><br>
+
+
+								</div>
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/wireframe2.jpg"/><br><br>
+
+
+								</div>			
+
+							</div>
+							<p class="center-align" style="font-size:16px;"><b>Wireframe - Iteration 2</b></p>						
+							<div class="row">
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/wireframe3.jpg"/><br><br>
+
+
+								</div>
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/wireframe4.jpg"/><br><br>
+
+
+								</div>			
+
+							</div>
+
+
+						</div>
+
+
+					</div>
+					<div class="divider"></div>
+					<div id="pPrototype" class="row section scrollspy">
+						<div class="col s12 m12">
+							<h4>PROTOTYPE</h4>
+							<p>I went through two iterations of paper prototyping before designing the app in Sketch.</p>
+							<h6>Paper Prototype - Iteration #1</h6>
+
+							<p>Key features:</p>
+							<ul class="browser-default">
+								<li><b>Map: </b>a map view will display all the potential shooting locations</li>
+								<li><b>List: </b>a list view will display all the potential shooting locations</li>		
+								<li><b>Add Location: </b>user will be able to add locations that they think are good for shooting</li>		
+								<li><b>My Locations: </b>user will be able to see any locations that they have saved</li>				
+								<li><b>"Good For" Filter: </b>"Good For" will be used to filter certain types of photography locations (i.e. landscape)</li>
+								<li><b>Trips: </b>user will be able to search and save locations that they want to go to</li>							
+
+
+							</ul>
+
+
+							<div class="row">
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/1.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Home (no tab bar)</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/2.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Locations - Map</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/3.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Nearby - Map</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/4.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Locations - List</i></p>									
+								</div>	
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/5.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Nearby - List</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/7.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Filter</i></p>									
+								</div>																	
+							</div>
+							<div class="row">
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/8.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>A Location</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/10.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Add Location - 1</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/9.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Add Location - 2</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/11.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>My Trips</i></p>									
+								</div>	
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/12.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>New Trip</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp1/14.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>A Trip</i></p>									
+								</div>																	
+							</div>					
+
+
+
+							<div class="row">
+								<div class="col s12 m6">
+									<h6>User Testing #1</h6>
+									<p>I conducted initial user testing with my paper prototypes. Here are my findings:</p>
+									<ul class="browser-default">
+										<li>Users were confused about the "Trips" feature. Because there was already a "My Locations" feature, they felt that Trips was redundant</li>
+										<li>Users preferred a map view over list view because they could see how far a place is on the map if they are already near a location</li>
+										<li>Users liked the "Good For" filter but wanted a way to add their own thoughts of what a location is good for</li>								
+									</ul>
+								</div>
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/pp1.jpg"/>
+								</div>
+							</div>
+
+							<h6>Paper Prototype - Iteration #2</h6>		
+
+							<p>From user feedback, I made the following changes to the next iteration:</p>
+							<ul class="browser-default">
+								<li>Removed "Trips" feature and enhanced saved locations feature</li>
+								<li>Removed list view and retained map view</li>
+								<li>Added ability to give input about "Good For"</li>
+							</ul>
+
+							<div class="row">
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/1.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Home</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/3.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Search - 1</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/4.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Search - 2</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/5.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Nearby</i></p>									
+								</div>	
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/6.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>A Location</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/7.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Apply Filter</i></p>									
+								</div>																	
+							</div>
+
+							<div class="row">
+
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/11.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Add "Good For"</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/12.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Saved Locations</i></p>									
+								</div>	
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/13.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>New Location - 1</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/14.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>New Location - 2</i></p>									
+								</div>	
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/9.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Upload Photo - 1</i></p>									
+								</div>
+								<div class="col s12 m2 center-align">
+									<img class="responsive-img" src="media/photorize/pp2/10.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Upload Photo - 2</i></p>									
+								</div>																						
+							</div>
+							<div class="row">
+								<div class="col s12 m6">
+
+
+									<h6>User Testing #2</h6>
+									<p>Here are my findings from my second paper prototype testing:</p>
+									<ul class="browser-default">
+										<li>Users like the "Favorites" feature as it allows them to see their saved places</li>
+										<li>Users wanted to see some location information on the map before going to each individual page</li>
+									</ul>
+								</div>
+								<div class="col s12 m6 center-align">
+									<img class="responsive-img" src="media/photorize/pp2.jpg"/>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m3">
+									<h6><b>Design Decision #1: </b>Search for locations on a map view</h6>
+									<p>Users can search for locations on a map. These locations are recommended by other photographers.<br><br>This allows users to learn about places they have never gone to before.</p>
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/3.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<h6><b>Design Decision #2: </b>Map view card</h6>
+									<p>I added the ability for users to tap on the location pin to display information about each place. Users can also swipe through the different cards.<br><br>This feature allows users to tap through each location easily to see the information.</p>						
+
+
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/2.jpg"/>
+								</div>
+
+							</div>
+
+							<div class="row">
+								<div class="col s12 m3">
+									<h6><b>Design Decision #3: </b>Saved locations feature</h6>
+									<p>Users can save locations that they want to try out or just keep places that they want to remember on this list.<br><br>I kept this simple so that users can easily pull up and search through their saved locations.</p>							
+
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/4.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<h6><b>Design Decision #4: </b>"Good For" filter</h6>
+									<p>Different photographers have different styles of shooting. I added a filter that allows users to look for locations that caters to their preferences.</p>						
+
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/12.jpg"/>
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="col s12 m3">
+									<h6><b>Design Decision #5: </b>User input for "Good For" filter</h6>
+									<p>Because different locations are suited for different styles of photography, I added the option for users to add what photography type they think the place is good for. This allows for better representation of location information.</p>						
+
+								</div>
+								<div class="col s12 m3 center-align">
+
+									<img class="responsive-img" src="media/photorize/hifi/11.jpg"/>
+								</div>
+								<div class="col s12 m3">
+									<h6><b>Design Decision #6: </b>Location design</h6>
+									<p>Each location will show the top 3 "Good For" types. This makes sure that users will know what the location is most used for.<br><br>Users can also add/remove locations from their saved list by tapping the star icon.</p>
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/5.jpg"/>
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="col s12 m3">
+									<h6><b>Design Decision #7: </b>Displaying photographer's uploaded photos</h6>
+									<p>Each location will also show sample photos that other photographers have uploaded. This allows users to see whether or not a location will match their style.</p>						
+
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/6.jpg"/>
+								</div>
+
+							</div>
+
+							<h6>Workflow</h6>
+							<div class="row">
+								<div class="col s12 m12 center-align">
+									<img class="responsive-img" src="media/photorize/userflow.jpg"/>
+								</div>
+							</div>
+
+							<h6>High Fidelity Prototype</h6>		
+
+							<br>
+							<div class="row">
+
+
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/1.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Map</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/2.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Map - Selected Location</i></p>										
+								</div>
+
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/13.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Search - 1</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/14.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Search - 2</i></p>										
+								</div>
+							</div>
+
+							<div class="row">
+
+
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/4.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Favorites</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/5.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>One Location</i></p>										
+								</div>
+
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/7.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>New Location - 1</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/8.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>New Location - 2</i></p>										
+								</div>
+							</div>
+
+
+							<div class="row">
+
+
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/9.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Upload New Photo - 1</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/10.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Upload New Photo - 2</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/11.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Add "Good For"</i></p>										
+								</div>
+								<div class="col s12 m3 center-align">
+									<img class="responsive-img" src="media/photorize/hifi/12.jpg"/>
+									<p class="center-align" style="font-size:14px"><i>Apply Filter</i></p>										
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+					<div class="divider"></div>
+					<div id="pNextSteps" class="row section scrollspy">
+						<div class="col s12 m12">
+							<h4>NEXT STEPS</h4>
+							<p>I want to make my high fidelity prototype <b>interactive with Framer</b> and then conduct <b>usability testing</b> with more photographers. After testing, I will make refinements and <b>begin development</b> for the application.</p>
+
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="col hide-on-small-only m2">
+					<div class="myProcessNav">
+						<ul class="section table-of-contents">
+							<li><a href="#pResearch">RESEARCH</a></li>
+							<li><a href="#pDesign">DESIGN</a></li>
+							<li><a href="#pPrototype">PROTOTYPE</a></li>
+							<li><a href="#pNextSteps">NEXT STEPS</a></li>        
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+	</main>
+
+	<footer class="page-footer blue-grey darken-2">
+
+
+		<div class="container white-text valign-wrapper">
+
+			<i class="tiny material-icons valign">email</i>&nbsp;<a class="white-text" href="mailto:victoriachai@gatech.edu"> victoriachai@gatech.edu </a>
+		</div>
+
+	</footer>
+
+	<!--some javascript-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
