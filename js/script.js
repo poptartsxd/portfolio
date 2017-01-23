@@ -4,27 +4,27 @@ $(document).ready(function(){
 	$(".button-collapse").sideNav();
 
 	$(".myProcessNav").pushpin({
-		top:1100,
-		offset:100
-	});
-
-	$(".medMinderProcessNav").pushpin({
-		top:1700,
-		offset:100
-	});
-
-	$(".argonProcessNav").pushpin({
-		top:1000,
-		offset:100
-	});
-
-	$(".lockitProcessNav").pushpin({
 		top:1300,
 		offset:100
 	});
 
+	$(".medMinderProcessNav").pushpin({
+		top:1900,
+		offset:100
+	});
+
+	$(".argonProcessNav").pushpin({
+		top:1200,
+		offset:100
+	});
+
+	$(".lockitProcessNav").pushpin({
+		top:1500,
+		offset:100
+	});
+
 	$(".connectProcessNav").pushpin({
-		top:1400,
+		top:1600,
 		offset:100
 	});
 
