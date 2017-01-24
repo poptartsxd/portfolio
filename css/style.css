@@ -69,7 +69,7 @@ main
 
 .projectBtnOverlay {
   opacity: 0;
-  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(255,255,255,0.3);
   transition: .5s ease;
   position:absolute;
   top:0;
@@ -81,7 +81,7 @@ main
 
 .projectBtnPlus
 {
-  color: white;
+  color: #455a64;
   font-size: 100px;
   height:100%;
 }
