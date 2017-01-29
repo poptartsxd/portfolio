@@ -5,27 +5,27 @@ $(document).ready(function(){
 
 	$(".myProcessNav").pushpin({
 		top:1300,
-		offset:100
+		offset:75
 	});
 
 	$(".medMinderProcessNav").pushpin({
 		top:1900,
-		offset:100
+		offset:75
 	});
 
 	$(".argonProcessNav").pushpin({
 		top:1200,
-		offset:100
+		offset:75
 	});
 
 	$(".lockitProcessNav").pushpin({
 		top:1500,
-		offset:100
+		offset:75
 	});
 
 	$(".connectProcessNav").pushpin({
 		top:1600,
-		offset:100
+		offset:75
 	});
 
 	$(window).scroll(function() {
