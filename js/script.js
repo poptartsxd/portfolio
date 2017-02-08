@@ -3,6 +3,8 @@ $(document).ready(function(){
 	$(".scrollspy").scrollSpy();
 	$(".button-collapse").sideNav();
 
+	$('.carousel.carousel-slider').carousel({full_width: true, indicators:true});
+
 	$(".myProcessNav").pushpin({
 		top:1300,
 		offset:75
