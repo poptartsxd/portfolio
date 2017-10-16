@@ -1,1 +1,1 @@
-This is Victoria Chai's portfolio. Materialize CSS framework used.
+Old portfolio. View new one at: www.victoriachai.com
